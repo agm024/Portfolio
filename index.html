@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agastya Malunjkar | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+
+    <body>
+        <body>
+            <nav class="navbar">
+                <div class="container nav-content">
+                    <a href="#" class="logo">Portfolio</a>
+                    <div class="nav-links">
+                        <a href="#home">Home</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <!--<button class="mode-toggle" onclick="toggleMode()">🌓</button>-->
+                </div>
+            </nav>
+        
+            <section class="hero" id="home">
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <h1>Agastya <span>Malunjkar</span></h1>
+                            <p>I'm <span class="auto-type"></span></p>
+                            <p>Hi, I'm Agastya Malunjkar, currently navigating the exciting world of 9<sup>th</sup> grade. 
+                I'm passionate about building a future in software development/ engineering.
+                 When I'm not coding, you'll find me capturing the world through my lens, blending creativity with technology. <br><br>
+                             I'm diving into the realms of C, HTML, CSS, JavaScript, Python, and SQL.  
+                                Recently, I completed the CS50x course from Harvard University — an exhilarating journey of learning and discovery that I thoroughly enjoyed!.</p>
+                        </div>
+                        <div class="hero-image"><br><br><br><br>
+                            <img src="Cover Photo 1-modified.png" alt="Agastya" class="profile-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="social-media">
+                <a href="https://github.com/agm024" target="_blank" style="--i:1"><i class='bx bxl-github'></i></a>
+                <a href="mailto:agastyagm2@gmail.com" target="_blank" style="--i:2"><i class='bx bxl-gmail'></i></a>
+                <a href="https://www.youtube.com/@CodeFuzeOfficial" target="_blank" style="--i:3"><i class='bx bxl-youtube'></i></a>
+            </div>
+            <section id="skills">
+                <div class="container">
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <h3>Programming Languages</h3>
+                            <p>HTML, CSS, JavaScript, Python, C</p>
+                        </div>
+                        <div class="skill-card" onclick="window.open('https://cs50.harvard.edu/certificates/0973330d-4c8c-43a3-b6d8-12925c305a93.png?size=letter', '_blank')">
+                            <h3>Harvard CS50x (Click on the box!)</h3>
+                            <p>Completed the CS50x Course from Harvard University using edX platform</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3>Web Development</h3>
+                            <p>Flask, PyQt6, Django, Git, GitHub</p>
+                        </div>
+                        <div class="skill-card">
+                            <h3>Robotics & Hardware</h3>
+                            <p>Arduino, Sensors, Embedded Systems</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+<section id="tech-stack">
+    <div class="container">
+        <h2 class="section-title">Tech Stack</h2>
+        <div class="tech-stack-grid">
+            <!-- Programming Languages -->
+            <div class="tech-card">
+                <h3>Programming Languages</h3>
+                <ul>
+                    <li><i class='bx bxl-html5' style='color:#ff6200'></i> HTML</li>
+                    <li><i class='bx bxl-css3' style='color:#009dff'></i> CSS</li>
+                    <li><i class='bx bxl-javascript' style='color:#f6ff00'></i> JavaScript</li>
+                    <li><i class='bx bxl-python' style='color:#fbff00'></i> Python</li>
+                    <li><i class='bx bx-code-alt' style='color:#99ff00'></i> C</li>
+                    <li><i class='bx bxs-data' style='color:#7a7b8d'></i> SQL</li>
+                </ul>
+            </div>
+
+            <div class="tech-card">
+                <h3>Frameworks & Tools</h3>
+                <ul>
+                    <li><i class='bx bxl-flask' style='color:#fff'></i> Flask</li>
+                    <li><i class='bx bxl-git' style='color:#f34f29'></i> Git</li>
+                    <li><i class='bx bxl-github' style='color:#ffffff'></i> GitHub</li>
+                    <li><i class='bx bxl-visual-studio' style='color:#0078d7'></i> VS Code</li>
+                    <li><i class='bx bxl-arduino' style='color:#00979d'></i> Arduino</li>
+                    <li><i class='bx bxl-postgresql' style='color:#336791'></i> PostgreSQL</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+            <section id="projects">
+                <div class="container">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <h3>Smart Dustbin</h3>
+                            <p>IoT-based automated waste segregation system using Arduino and Flask.</p>
+                        </div>
+                        <div class="project-card">
+                            <h3>Pocket Money Web App</h3>
+                            <p>Expense tracking app with Flask and PostgreSQL.</p>
+                        </div>
+                        <div class="project-card">
+                            <h3>School Library System</h3>
+                            <p>Digital library management system using Django, PyQt6 and PostgreSQL.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <script src="script.js"></script>
+    </body>
+</html>
