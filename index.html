@@ -5,6 +5,7 @@
     <title>Agastya Malunjkar | Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles.css">
 
@@ -16,6 +17,7 @@
                     <div class="nav-links">
                         <a href="#home">Home</a>
                         <a href="#skills">Skills</a>
+                        <a href="#tech-stack">Tech Stack</a>
                         <a href="#projects">Projects</a>
                         <a href="#contact">Contact</a>
                     </div>
@@ -33,7 +35,8 @@
                 I'm passionate about building a future in software development/ engineering.
                  When I'm not coding, you'll find me capturing the world through my lens, blending creativity with technology. <br><br>
                              I'm diving into the realms of C, HTML, CSS, JavaScript, Python, and SQL.  
-                                Recently, I completed the CS50x course from Harvard University — an exhilarating journey of learning and discovery that I thoroughly enjoyed!.</p>
+                                Recently, I completed the CS50x course from Harvard University — an exhilarating journey of learning and discovery that I thoroughly enjoyed!.</p><br><br>
+                                <p>Currently, I am working some organisation <a href="https://github.com/CodeFuzeOfficial">@CodeFuzeOfficial</a> and <a href="https://github.com/STEM-Mavericks">@STEM-Mavericks</a></p>
                         </div>
                         <div class="hero-image"><br><br><br><br>
                             <img src="Cover Photo 1-modified.png" alt="Agastya" class="profile-img">
@@ -42,9 +45,9 @@
                 </div>
             </section>
             <div class="social-media">
-                <a href="https://github.com/agm024" target="_blank" style="--i:1"><i class='bx bxl-github'></i></a>
-                <a href="mailto:agastyagm2@gmail.com" target="_blank" style="--i:2"><i class='bx bxl-gmail'></i></a>
-                <a href="https://www.youtube.com/@CodeFuzeOfficial" target="_blank" style="--i:3"><i class='bx bxl-youtube'></i></a>
+                <a href="https://github.com/agm024" target="_blank" style="--i:1" class="tooltip" data-text="Agastya"><i class='bx bxl-github'></i></a>
+                <a href="mailto:agastyagm2@gmail.com" target="_blank" style="--i:2" class="tooltip" data-text="Gmail"><i class='bx bxl-gmail'></i></a>
+                <a href="https://www.youtube.com/@CodeFuzeOfficial" target="_blank" style="--i:3" class="tooltip" data-text="Youtube Channel"><i class='bx bxl-youtube'></i></a>
             </div>
             <section id="skills">
                 <div class="container">
@@ -74,7 +77,6 @@
     <div class="container">
         <h2 class="section-title">Tech Stack</h2>
         <div class="tech-stack-grid">
-            <!-- Programming Languages -->
             <div class="tech-card">
                 <h3>Programming Languages</h3>
                 <ul>
@@ -82,7 +84,7 @@
                     <li><i class='bx bxl-css3' style='color:#009dff'></i> CSS</li>
                     <li><i class='bx bxl-javascript' style='color:#f6ff00'></i> JavaScript</li>
                     <li><i class='bx bxl-python' style='color:#fbff00'></i> Python</li>
-                    <li><i class='bx bx-code-alt' style='color:#99ff00'></i> C</li>
+                    <li><img src="https://upload.wikimedia.org/wikipedia/commons/3/35/The_C_Programming_Language_logo.svg" alt="C Logo" width="20"> C<li>
                     <li><i class='bx bxs-data' style='color:#7a7b8d'></i> SQL</li>
                 </ul>
             </div>
@@ -94,7 +96,7 @@
                     <li><i class='bx bxl-git' style='color:#f34f29'></i> Git</li>
                     <li><i class='bx bxl-github' style='color:#ffffff'></i> GitHub</li>
                     <li><i class='bx bxl-visual-studio' style='color:#0078d7'></i> VS Code</li>
-                    <li><i class='bx bxl-arduino' style='color:#00979d'></i> Arduino</li>
+                    <li><img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" alt="Arduino Logo" width="30"> Arduino</li>
                     <li><i class='bx bxl-postgresql' style='color:#336791'></i> PostgreSQL</li>
                 </ul>
             </div>
@@ -109,19 +111,39 @@
                         <div class="project-card">
                             <h3>Smart Dustbin</h3>
                             <p>IoT-based automated waste segregation system using Arduino and Flask.</p>
+                            <div class="project-image">
+                                <img src="" alt="">
+                            </div>
                         </div>
                         <div class="project-card">
                             <h3>Pocket Money Web App</h3>
                             <p>Expense tracking app with Flask and PostgreSQL.</p>
+                            <div class="project-image">
+                                <img src="" alt="">
+                            </div>
                         </div>
                         <div class="project-card">
                             <h3>School Library System</h3>
                             <p>Digital library management system using Django, PyQt6 and PostgreSQL.</p>
+                            <div class="project-image">
+                                <img src="" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
             <script src="script.js"></script>
+            <footer class="footer">
+                <div class="container footer-content">
+                    <p>&copy; 2025 Agastya Malunjkar. All Rights Reserved.</p>
+                    <div class="social-media">
+                        <a href="https://github.com/agm024" target="_blank" class="tooltip" data-text="Agastya"><i class='bx bxl-github'></i></a>
+                        <a href="https://github.com/CodeFuzeOfficial" target="_blank" class="tooltip" data-text="CodeFuzeOfficial"><i class='bx bxl-github'></i></a>
+                        <a href="https://github.com/STEM-Mavericks" target="_blank" class="tooltip" data-text="STEM-Mavericks"><i class='bx bxl-github'></i></a>
+                        <a href="mailto:agastyagm2@gmail.com" class="tooltip" data-text="Email"><i class='bx bxl-gmail'></i></a>
+                    </div>
+                </div>
+            </footer>
     </body>
 </html>
