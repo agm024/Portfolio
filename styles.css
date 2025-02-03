@@ -397,6 +397,13 @@ section {
     .navbar .nav-links {
         display: none;
     }
+
+    .hero-image {
+        display: flex;
+        justify-content: center;
+        margin-top: -20px; /* Shifts image upwards */
+    }
+
     .hero-content {
         grid-template-columns: 1fr;
         text-align: center;
