@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://agm024-portfolio.vercel.app/sitemap.xml
